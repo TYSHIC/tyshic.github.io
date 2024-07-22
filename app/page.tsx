@@ -1,33 +1,36 @@
-import Head from 'next/head';
+"use client";
+
 import styles from '../styles/Home.module.css';
 import Image from "next/image";
+import {useState} from "react";
 
-export default function Home() {
+export default function Page() {
+    const [width, setWidth] = useState<number>(0);
     return (
         <div className={styles.container}>
-            <Head>
-                <title>TYIC 桃高資訊社</title>
-                <link rel="icon" href="/tyic_logo.ico"/>
-            </Head>
-
-            <main>
-                <h1 className={styles.title}>
-                    TYIC 桃高資訊社
-                </h1>
+            <main className="dark text-foreground bg-background">
+                {/*<h1 className={styles.title}>*/}
+                {/*    TYIC 桃高資訊社*/}
+                {/*</h1>*/}
+                <Image src={'/logo3500x2200.svg'} alt={'TYIC Logo'} height={350} width={220} priority
+                       style={{borderRadius: '20px'}}/>
 
                 <p className={styles.description}>
-                    一個讓你學習程式的地方
+                    一個學習程式的地方
                 </p>
 
                 <div className={styles.grid}>
                     <a href="https://www.instagram.com/tyic_4th/" className={styles.card}>
-                        <h3>Instagram &rarr;</h3>
+
+                        <Image src={'/instagram_logo.svg'} alt={'Instagram Logo'} height={24}
+                               width={24} style={{margin: '0 5px 0 0'}}/>
+                        <h3 style={{display: 'inline-block'}}>Instagram &rarr;</h3>
                         <p>歡迎追蹤喔！</p>
                     </a>
 
                     <a href="https://github.com/TYSHIC/slides" className={styles.card}>
                         <h3>上課投影片 &rarr;</h3>
-                        <p>歡迎任何非商業的使用、修改</p>
+                        <p>歡迎任何非商業使用、修改</p>
                     </a>
 
                     <a href="https://github.com/TYSHIC/Java_Code" className={styles.card}>
@@ -49,7 +52,7 @@ export default function Home() {
 
             <style jsx>{`
                 main {
-                    padding: 5rem 0;
+                    padding: 1rem 0;
                     flex: 1;
                     display: flex;
                     flex-direction: column;
@@ -83,14 +86,9 @@ export default function Home() {
                     border-radius: 5px;
                     padding: 0.75rem;
                     font-size: 1.1rem;
-                    font-family: Menlo,
-                    Monaco,
-                    Lucida Console,
-                    Liberation Mono,
-                    DejaVu Sans Mono,
-                    Bitstream Vera Sans Mono,
-                    Courier New,
-                    monospace;
+                    font-family: "Fira Code",
+                    "Noto Sans TC",
+                    sans-serif;
                 }
             `}</style>
 
@@ -99,16 +97,8 @@ export default function Home() {
                 body {
                     padding: 0;
                     margin: 0;
-                    font-family: -apple-system,
-                    BlinkMacSystemFont,
-                    Segoe UI,
-                    Roboto,
-                    Oxygen,
-                    Ubuntu,
-                    Cantarell,
-                    Fira Sans,
-                    Droid Sans,
-                    Helvetica Neue,
+                    font-family: "Fira Code",
+                    "Noto Sans TC",
                     sans-serif;
                 }
 
