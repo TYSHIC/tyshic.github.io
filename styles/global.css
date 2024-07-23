@@ -1,12 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
-
 html,
 body {
     padding: 0;
     margin: 0;
-    font-family: "Fira Code",
-    "Noto Sans TC",
-    sans-serif;
 }
 
 a {
@@ -21,15 +16,4 @@ a {
 img {
     max-width: 100%;
     height: auto;
-}
-
-:root {
-    /* Your default theme */
-    --background: white;
-    --foreground: black;
-}
-
-[data-theme='dark'] {
-    --background: black;
-    --foreground: white;
 }
