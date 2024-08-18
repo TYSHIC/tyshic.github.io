@@ -46,9 +46,9 @@ export default function Page() {
                         <p>相見歡 + 程式語言 + 編輯器</p>
                         <p>Java: 基礎語法 + IntelliJ IDEA</p>
                         <p>Java: 流程控制 + 靜態成員</p>
-                        <p>Java: 類別與物件</p>
-                        <p>Java: 介面 + 工具類別</p>
-                        <p>Git + Github + Java: 套件</p>
+                        <p>Java: 類別與物件 + 套件</p>
+                        <p>Java: 包裝類別 + 工具類別(1)</p>
+                        <p>泛型 + 介面 + 工具類別(2)</p>
                         <p>Java: 例外處理 + Kahoot 大賽</p>
                     </div>
                     <div style={{
@@ -60,8 +60,8 @@ export default function Page() {
                         <h2 style={{margin: 0}}>下學期：</h2>
                         <p>Java 虛擬機</p>
                         <p>電腦結構</p>
-                        <p>Java: Lambda + 串流</p>
-                        <p>Java: Maven + Java專案前置作業</p>
+                        <p>Java: Lambda + 串流 + Maven</p>
+                        <p>Git + Github + Java 專案前置作業</p>
                         <p>Java 專案製作 (1)</p>
                         <p>Java 專案製作 (2)</p>
                         <p>Java 專案發表</p>
