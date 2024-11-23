@@ -49,11 +49,11 @@ export default function Page() {
                         <h2 style={{margin: 0}}>上學期：</h2>
                         <p>1. 相見歡 + 程式語言 + 編輯器</p>
                         <p>2. Java: 基礎語法</p>
-                        <p>3. IntelliJ IDEA + Java: 流程控制</p>
-                        <p>4. Java: 靜態成員 + 類別與物件</p>
-                        <p>5. Java: 套件 + 包裝類別 + 工具類別(1)</p>
-                        <p>6. Java: 介面 + 泛型</p>
-                        <p>7. Java: 工具類別(2) + Kahoot 大賽</p>
+                        <p>3. Java: 基礎語法 + IntelliJ IDEA + Java: 流程控制</p>
+                        <p>4. Java: 流程控制</p>
+                        <p>5. Java: 流程控制 + 靜態成員</p>
+                        <p>6. Java: 靜態成員 + 類別與物件</p>
+                        <p>7. Java: 類別與物件 + 套件 + Kahoot 大賽</p>
                     </div>
                     <div style={{
                         border: '1px solid #eaeaea',
@@ -62,13 +62,13 @@ export default function Page() {
                         borderRadius: '25px'
                     }}>
                         <h2 style={{margin: 0}}>下學期：</h2>
-                        <p>1. Java: 例外處理</p>
-                        <p>2. Java 虛擬機(彈)</p>
-                        <p>3. 電腦結構(彈)</p>
-                        <p>4. Git + Github + Java 專案前置作業</p>
-                        <p>5. Java 專案製作 (1)</p>
-                        <p>6. Java 專案製作 (2)</p>
-                        <p>7. Java 專案發表</p>
+                        <p>1. 空值與參考 + 包裝類別與工具類別(1)</p>
+                        <p>2. Java: 介面</p>
+                        <p>3. Java: 泛型</p>
+                        <p>4. Java: 工具類別(2)</p>
+                        <p>5. Java: 工具類別(2)</p>
+                        <p>6. Java: 例外處理 + Git + Github + Java 專案前置作業</p>
+                        <p>7. Java 專案製作</p>
                     </div>
                 </div>
                 <hr style={{width: "100%"}}/>
